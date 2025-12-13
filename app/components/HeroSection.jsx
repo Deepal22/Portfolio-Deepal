@@ -12,7 +12,7 @@ const HeroSection = () => {
             <div className="col-span-7 place-self-center text-center sm:text-left justify-self-start">
                 <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl lg:leading-normal font-extrabold">
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-                    Hello, I m{" "}
+                    Hello, I&apos;m{" "}
                   </span> 
                   <br></br>  
                     <TypeAnimation
@@ -44,7 +44,7 @@ const HeroSection = () => {
                         Hire Me
                     </Link>
                     <Link
-                        href="https://drive.google.com/file/d/1jK6KY7mtPfAe8ej0FBBavJ94Zl2NZyUu/view?usp=sharing"
+                        href="https://docs.google.com/document/d/1gtV-1o3SgA8b24DSLlCQQfE-VzVM3lj9/edit?usp=drive_link&ouid=103472568420285813067&rtpof=true&sd=true"
                         className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3"
                         >
                         <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">

@@ -77,6 +77,7 @@ const AboutSection = () => {
                 I enjoy turning ideas into functional digital solutions while continuously learning and refining my craft
             </p>
             <div className='flex flex-row justify-start mt-8'>
+                {/**Skills tab */}
                 <TabButton 
                 selectTab={() => handleTabChange("skills")} 
                 active={tab === "skills"}
@@ -84,6 +85,8 @@ const AboutSection = () => {
                     {" "}
                     Skills{" "}
                 </TabButton>
+
+                {/**Education tab */}
                 <TabButton 
                 selectTab={() => handleTabChange("education")} 
                 active={tab === "education"}
@@ -91,6 +94,8 @@ const AboutSection = () => {
                     {" "}
                     Education{" "}
                 </TabButton>
+
+                {/**Certification tab */}
                 <TabButton 
                 selectTab={() => handleTabChange("certifications")} 
                 active={tab === "certifications"}
@@ -98,8 +103,11 @@ const AboutSection = () => {
                     {" "}
                     Certifications{" "}
                 </TabButton>
+
             </div>
-            <div className='mt-8'>{TAB_DATA.find((t) => t.id === tab).content}</div>
+            <div className='mt-8'>
+                {TAB_DATA.find((t) => t.id === tab).content}
+            </div>
         </div>
       </div>
     </section>
