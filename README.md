@@ -4,7 +4,7 @@ A modern, responsive developer portfolio built using **Next.js** to showcase my 
 Designed with performance, clean UI, and scalability in mind.
 
 🔗 **Live Demo:** (https://portfolio-deepal-gank.vercel.app/)  
-📂 **Repository:** https://github.com/your-username/portfolio
+📂 **Repository:** (https://github.com/Deepal22/Portfolio-Deepal)
 
 ---
 
